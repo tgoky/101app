@@ -43,7 +43,7 @@ function BuildByDevelopers() {
               </SuiTypography>
               <SuiBox mb={6}>
                 <SuiTypography variant="body2" color="text" fontWeight="bold">
-                  من الألوان والبطاقات والطباعة إلى العناصر المعقدة ، ستجد الوثائق الكاملة.
+   
                 </SuiTypography>
               </SuiBox>
               <SuiTypography
@@ -70,7 +70,7 @@ function BuildByDevelopers() {
                   },
                 }}
               >
-                اقرأ المستندات
+            
                 <Icon sx={{ fontWeight: "bold" }}>arrow_backward</Icon>
               </SuiTypography>
             </SuiBox>
