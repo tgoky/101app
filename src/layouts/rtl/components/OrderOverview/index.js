@@ -50,34 +50,34 @@ function OrdersOverview() {
         <TimelineItem
           color="success"
           icon="notifications"
-          title="$2400, تغييرات في التصميم"
-          dateTime="22 ديسمبر 7:20 مساءً"
+          title=""
+          dateTime=""
         />
         <TimelineItem
           color="error"
           icon="inventory_2"
-          title="طلب جديد # 1832412"
-          dateTime="21 ديسمبر 11 م"
+          title=""
+          dateTime=""
         />
         <TimelineItem
           color="info"
           icon="shopping_cart"
-          title="مدفوعات الخادم لشهر أبريل"
-          dateTime="21 ديسمبر 9:34 مساءً"
+          title=""
+          dateTime=""
         />
         <TimelineItem
           color="warning"
           icon="payment"
-          title="تمت إضافة بطاقة جديدة للأمر رقم 4395133"
-          dateTime="20 ديسمبر 2:20 صباحًا"
+           title=""
+          dateTime=""
         />
         <TimelineItem
           color="primary"
           icon="vpn_key"
-          title="فتح الحزم من أجل التطوير"
-          dateTime="18 ديسمبر ، 4:54 صباحًا"
+          title=""
+          dateTime=""
         />
-        <TimelineItem color="dark" icon="paid" title="طلب جديد # 9583120" dateTime="17 ديسمبر" />
+        <TimelineItem color="dark" icon="paid" title="" dateTime="" />
       </SuiBox>
     </Card>
   );
