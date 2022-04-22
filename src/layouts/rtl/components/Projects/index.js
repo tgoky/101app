@@ -53,9 +53,9 @@ function Projects() {
       open={Boolean(menu)}
       onClose={closeMenu}
     >
-      <MenuItem onClick={closeMenu}>عمل</MenuItem>
-      <MenuItem onClick={closeMenu}>عمل اخر</MenuItem>
-      <MenuItem onClick={closeMenu}>شيء آخر هنا</MenuItem>
+      <MenuItem onClick={closeMenu}></MenuItem>
+      <MenuItem onClick={closeMenu}></MenuItem>
+      <MenuItem onClick={closeMenu}></MenuItem>
     </Menu>
   );
 
@@ -77,7 +77,7 @@ function Projects() {
               done
             </Icon>
             <SuiTypography variant="button" fontWeight="regular" color="text">
-              &nbsp;<strong>30 انتهى</strong> هذا الشهر
+              &nbsp;<strong>30 </strong> 
             </SuiTypography>
           </SuiBox>
         </SuiBox>
