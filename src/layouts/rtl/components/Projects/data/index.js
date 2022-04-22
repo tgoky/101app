@@ -47,28 +47,28 @@ export default function data() {
 
   return {
     columns: [
-      { name: "المشروع", align: "left" },
-      { name: "أعضاء", align: "left" },
-      { name: "ميزانية", align: "center" },
-      { name: "إكمال", align: "center" },
+      { name: "", align: "left" },
+      { name: "", align: "left" },
+      { name: "", align: "center" },
+      { name: "", align: "center" },
     ],
 
     rows: [
       {
-        المشروع: [logoXD, "Soft UI XD الإصدار"],
+        المشروع: [logoXD, ""],
         أعضاء: (
           <SuiBox display="flex" py={1}>
             {avatars([
-              [team1, "Ryan Tompson"],
-              [team2, "Romina Hadid"],
-              [team3, "Alexander Smith"],
-              [team4, "Jessica Doe"],
+              [team1, ""],
+              [team2, ""],
+              [team3, ""],
+              [team4, ""],
             ])}
           </SuiBox>
         ),
         ميزانية: (
           <SuiTypography variant="caption" color="text" fontWeight="medium">
-            $14,000
+            
           </SuiTypography>
         ),
         إكمال: (
@@ -78,7 +78,7 @@ export default function data() {
         ),
       },
       {
-        المشروع: [logoAtlassian, "أضف مسار التقدم إلى التطبيق الداخلي"],
+        المشروع: [logoAtlassian, ""],
         أعضاء: (
           <SuiBox display="flex" py={1}>
             {avatars([
@@ -161,7 +161,7 @@ export default function data() {
         ),
       },
       {
-        المشروع: [logoInvesion, "إعادة تصميم متجر جديد على الإنترنت"],
+        المشروع: [logoInvesion, ""],
         أعضاء: (
           <SuiBox display="flex" py={1}>
             {avatars([
